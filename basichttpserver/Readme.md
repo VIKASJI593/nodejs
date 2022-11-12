@@ -50,6 +50,8 @@ git remote add origin git@github.com:VIKASJI593/nodejs.git
 
 git push -u origin main
 
+git push -f -u origin main
+
 //push an existing repository from the command line
 
 git remote add origin git@github.com:VIKASJI593/-Mini-Project-Finishing-up.git
