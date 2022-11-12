@@ -12,9 +12,9 @@
 
 git branch
 
-git branch name
+git branch master
 
-git branch name checkout
+git checkout master 
 
 git branch
 
@@ -24,11 +24,11 @@ git add .
 
 git status
 
-git commit -m "msg"
+git commit -m "server moving"
 
-git push -u origin branchname
+git push -u origin master
 
-git push -f -u origin main
+git push -f -u origin master
 
 
 
