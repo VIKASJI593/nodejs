@@ -55,17 +55,17 @@ git remote set-url origin https://github.com/VIKASJI593/nodejs.git
 
 git remote rename origin hello-world 
 
-git branch NaN
+git branch add
 
-git checkout NaN
+git checkout add
 
 git add .
 
-git commit -m "NaN"
+git commit -m "add"
 
-git push -u origin NaN
+git push -u origin add
 
-git push -f -u origin hello-world
+git push -f -u origin add
 
 
 
