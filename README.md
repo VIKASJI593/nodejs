@@ -1,4 +1,35 @@
 
+//type on console
+
+node index.js 1 2
+
+//output
+
+hello world!
+10
+[
+  '/snap/node/6905/bin/node',
+  '/home/vikas/node-js/index.js',
+  '1',
+  '2'
+]
+Adding the numbers:  3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //GIT BRANCH
 
 git branch
@@ -55,15 +86,15 @@ git remote set-url origin https://github.com/VIKASJI593/nodejs.git
 
 git remote rename origin hello-world 
 
-git branch argv
+git branch parseInt
 
-git checkout argv
+git checkout parseInt
 
 git add .
 
-git commit -m "argv"
+git commit -m "parseInt"
 
-git push -u origin argv
+git push -u origin parseInt
 
 git push -f -u origin add
 
