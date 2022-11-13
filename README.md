@@ -55,15 +55,15 @@ git remote set-url origin https://github.com/VIKASJI593/nodejs.git
 
 git remote rename origin hello-world 
 
-git branch hello-world
+git branch Function-add
 
-git checkout hello-world
+git checkout Function-add
 
 git add .
 
-git commit -m "hello-world"
+git commit -m "Function-add"
 
-git push -u origin hello-world
+git push -u origin Function-add
 
 git push -f -u origin hello-world
 
