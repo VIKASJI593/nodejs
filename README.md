@@ -26,26 +26,32 @@ git push -f -u origin hello-world
 
 
 
-//RENAME 
-git remote rename origin hello-world
+// new file 
 
 git config --global user.name "VIKAS KUMAR"
 
 git config --global user.email "kumar.vikas593@gmail.com"
 
 
-git remote remove hello-world 
+git remote rename origin hello-world
+
+git remote rename hello-world origin
+
+
+
+git remote remove origin
 
 git remote
 
  git remote -v
 
-git remote add hello-world https://github.com/VIKASJI593/testing.git
+git remote add origin https://github.com/VIKASJI593/nodejs.git
 
+//git remote add origin https://github.com/VIKASJI593/nodejs.git
 
 git branch -M hello-world
 
-git remote set-url origin https://github.com/VIKASJI593/testing.git
+git remote set-url origin https://github.com/VIKASJI593/nodejs.git
 
 git remote rename origin hello-world 
 
@@ -64,5 +70,5 @@ git push -f -u origin hello-world
 
 
 
-
+git remote remove hello-world
 
