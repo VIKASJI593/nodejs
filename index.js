@@ -5,7 +5,9 @@ const app = express();
 
 
 
-app.get('/profile', function(req, res){
+app.get('/', function(req, res){
+    /*----------it gives huge code in terminal------*/
+    console.log(req)
     res.send('<h1>Cool, it is running! or is it?</h1>');
 })
 
