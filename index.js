@@ -7,9 +7,12 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-
-app.get('/practice', function(req, res){
-    return res.render('practice', {title : "i am flying"});
+/*-----home title-------*/
+app.get('/', function(req, res){
+    return res.render('home',{
+        title: "Contact List",
+       
+    });
 })
 
 
