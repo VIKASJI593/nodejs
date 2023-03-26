@@ -10,9 +10,9 @@ git init
 
 git add .
 
-git commit -m "10-contact-list"
+git commit -m "10-contact-list-ADD"
 
-git branch -M 10-contact-list
+git branch -M 10-contact-list-ADD
 
 git branch
 
@@ -20,6 +20,6 @@ git remote add origin https://github.com/VIKASJI593/nodejs.git
 
 git remote -v
 
-git push -u origin 10-contact-list
+git push -u origin 10-contact-list-ADD
 
-git push -f -u origin 10-contact-list
+git push -f -u origin 10-contact-list-ADD
