@@ -1,12 +1,12 @@
-//output in terminal while click on delete button it keeps moving and give output in terminal
-{ phone: '1111111111' }
-{ phone: '1234567890' }
-{ phone: '12131321321' }
+//output in terminal while change variable part click on delete button it keeps moving and give output in terminal
+{ phone: 'vikas' }
+{ phone: 'vikas' }
+{ phone: 'vikas' }
 
 home.ejs file
 
 <div class="delete-button">
-                        <a href="/delete-contact/<%= i.phone %>">
+                        <a href="/delete-contact/vikas">
                             <img class="img" src="https://img.icons8.com/metro/26/000000/waste.png"/>
                         </a>
                     </div>
@@ -23,9 +23,9 @@ git init
 
 git add .
 
-git commit -m "14-query-string-params"
+git commit -m "15-query-string-params-variablepartchange"
 
-git branch -M 14-query-string-params
+git branch -M 15-query-string-params-variablepartchange
 
 git branch
 
@@ -33,6 +33,6 @@ git remote add origin https://github.com/VIKASJI593/nodejs.git
 
 git remote -v
 
-git push -u origin 14-query-string-params
+git push -u origin 15-query-string-params-variablepartchange
 
-git push -f -u origin 14-query-string-params
+git push -f -u origin 15-query-string-params-variablepartchange
