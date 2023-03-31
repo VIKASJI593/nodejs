@@ -5,11 +5,11 @@
 
 home.ejs file
 
-<div class="delete-button">
+<!-- <div class="delete-button">
                         <a href="/delete-contact/vikas">
                             <img class="img" src="https://img.icons8.com/metro/26/000000/waste.png"/>
                         </a>
-                    </div>
+                    </div> -->
 
 nodemon index.js
 
