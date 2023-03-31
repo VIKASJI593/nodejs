@@ -1,42 +1,40 @@
 <html>
-    <head>
-        <title>
-            <%= locals.title%>
-        </title>
-        <link rel="stylesheet" href="/css/home.css">
-    </head>
-    <body>
-
-        <div>
-            <ul>
-                   
-                <% for (let i of contact_list) { %> 
-                   <div class="contact"> 
-                        <li>
-                            <p><%= i.name %></p>
-                            <p><%= i.phone %></p>
-                        </li>
-                    </div>
-
-
-                    <div class="delete-button">
-                        <a href="/delete-contact/?phone=<%= i.phone %>">
-                            <img class="img" src="https://img.icons8.com/metro/26/000000/waste.png"/>
-                        </a>
-                    </div>
-
-
-
-
-                <% } %>
-            </ul> 
+  <head>
+    <title><%= locals.title%></title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <div>
+      <ul>
+        <% for (let i of contact_list) { %>
+        <div class="contact">
+          <li>
+            <p><%= i.name %></p>
+            <p><%= i.phone %></p>
+          </li>
         </div>
 
-        <form action="/create-contact" method="POST">
-            <input type="text" name="name" placeholder="Enter name" required>
-            <input type="number" name="phone" placeholder="Enter phone" required>
-            <button type="submit">Add contact</button>
-        </form>
-        <script type="text/javascript" src="/js/home.js"></script>
-    </body>
+        <div class="delete-button">
+          <a
+            href="/delete-contact/?phone=<%= i.phone %>&
+                          name=<%=i.name%>"
+          >
+            <img
+              class="img"
+              src="https://img.icons8.com/metro/26/000000/waste.png"
+            />
+          </a>
+        </div>
+
+        <% } %>
+      </ul>
+    </div>
+
+    <form action="/create-contact" method="POST">
+      <input type="text" name="name" placeholder="Enter name" required />
+      <input type="number" name="phone" placeholder="Enter phone" required />
+      <button type="submit">Add contact</button>
+    </form>
+    <script type="text/javascript" src="/js/home.js"></script>
+  </body>
 </html>

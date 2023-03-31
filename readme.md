@@ -25,9 +25,9 @@ git init
 
 git add .
 
-git commit -m "16-query-url"
+git commit -m "17-query-urlnotshow"
 
-git branch -M 16-query-url
+git branch -M 17-query-urlnotshow
 
 git branch
 
@@ -35,6 +35,6 @@ git remote add origin https://github.com/VIKASJI593/nodejs.git
 
 git remote -v
 
-git push -u origin 16-query-url
+git push -u origin 17-query-urlnotshow
 
-git push -f -u origin 16-query-url
+git push -f -u origin 17-query-urlnotshow
