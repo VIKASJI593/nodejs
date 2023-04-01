@@ -34,13 +34,21 @@ app.get('/practice', function(req, res){
     });
 });
 
-
+/*-----------Fetching data from db--------------------------- */
 app.get('/', function(req, res){
 
-    return res.render('home',{
-        title: "Contact List",
-        contact_list: contactList
-    });
+    Contact.find({}, function(err, contacts){
+        if(err){
+            console.log("error in fetching contacts from db");
+            return;
+        }
+        return res.render('home',{
+            title: "Contact List",
+            contact_list: contacts
+        });
+
+    })
+  
 })
 
 /*------------------populating db-------------------- */
